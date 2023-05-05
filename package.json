@@ -6,8 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint"  
   },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },  
   "dependencies": {
     "@next-auth/prisma-adapter": "^1.0.6",
     "@prisma/client": "^4.13.0",
